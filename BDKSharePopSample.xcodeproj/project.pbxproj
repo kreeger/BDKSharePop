@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33A1E2B166E89A100D5B062 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33A1E2A166E89A100D5B062 /* QuartzCore.framework */; };
+		C33A1E2F166E8A2900D5B062 /* GrayJean.png in Resources */ = {isa = PBXBuildFile; fileRef = C33A1E2D166E8A2900D5B062 /* GrayJean.png */; };
+		C33A1E30166E8A2900D5B062 /* GrayJean@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33A1E2E166E8A2900D5B062 /* GrayJean@2x.jpg */; };
+		C33A1E33166E8B8500D5B062 /* UIBarButtonItem+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = C33A1E32166E8B8500D5B062 /* UIBarButtonItem+Convenience.m */; };
+		C33A1E36166E8D9500D5B062 /* BDKDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = C33A1E35166E8D9500D5B062 /* BDKDrawing.m */; };
+		C37E04DF166E880200B5BE8E /* BDKSharePop.m in Sources */ = {isa = PBXBuildFile; fileRef = C37E04DE166E880200B5BE8E /* BDKSharePop.m */; };
+		C37E04E2166E881E00B5BE8E /* BDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37E04E1166E881E00B5BE8E /* BDKViewController.m */; };
+		C3E40F26166E87820040071C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E40F25166E87820040071C /* UIKit.framework */; };
+		C3E40F28166E87820040071C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E40F27166E87820040071C /* Foundation.framework */; };
+		C3E40F2A166E87820040071C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E40F29166E87820040071C /* CoreGraphics.framework */; };
+		C3E40F30166E87820040071C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3E40F2E166E87820040071C /* InfoPlist.strings */; };
+		C3E40F32166E87820040071C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E40F31166E87820040071C /* main.m */; };
+		C3E40F36166E87820040071C /* BDKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E40F35166E87820040071C /* BDKAppDelegate.m */; };
+		C3E40F38166E87820040071C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E40F37166E87820040071C /* Default.png */; };
+		C3E40F3A166E87820040071C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E40F39166E87820040071C /* Default@2x.png */; };
+		C3E40F3C166E87820040071C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E40F3B166E87820040071C /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C33A1E2A166E89A100D5B062 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C33A1E2D166E8A2900D5B062 /* GrayJean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrayJean.png; sourceTree = "<group>"; };
+		C33A1E2E166E8A2900D5B062 /* GrayJean@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GrayJean@2x.jpg"; sourceTree = "<group>"; };
+		C33A1E31166E8B8500D5B062 /* UIBarButtonItem+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Convenience.h"; sourceTree = "<group>"; };
+		C33A1E32166E8B8500D5B062 /* UIBarButtonItem+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Convenience.m"; sourceTree = "<group>"; };
+		C33A1E34166E8D9500D5B062 /* BDKDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKDrawing.h; sourceTree = "<group>"; };
+		C33A1E35166E8D9500D5B062 /* BDKDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKDrawing.m; sourceTree = "<group>"; };
+		C37E04DD166E880200B5BE8E /* BDKSharePop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKSharePop.h; sourceTree = "<group>"; };
+		C37E04DE166E880200B5BE8E /* BDKSharePop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKSharePop.m; sourceTree = "<group>"; };
+		C37E04E0166E881E00B5BE8E /* BDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKViewController.h; sourceTree = "<group>"; };
+		C37E04E1166E881E00B5BE8E /* BDKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKViewController.m; sourceTree = "<group>"; };
+		C3E40F21166E87820040071C /* BDKSharePopSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDKSharePopSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E40F25166E87820040071C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3E40F27166E87820040071C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3E40F29166E87820040071C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3E40F2D166E87820040071C /* BDKSharePopSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BDKSharePopSample-Info.plist"; sourceTree = "<group>"; };
+		C3E40F2F166E87820040071C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3E40F31166E87820040071C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3E40F33166E87820040071C /* BDKSharePopSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BDKSharePopSample-Prefix.pch"; sourceTree = "<group>"; };
+		C3E40F34166E87820040071C /* BDKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDKAppDelegate.h; sourceTree = "<group>"; };
+		C3E40F35166E87820040071C /* BDKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDKAppDelegate.m; sourceTree = "<group>"; };
+		C3E40F37166E87820040071C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C3E40F39166E87820040071C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C3E40F3B166E87820040071C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3E40F1E166E87820040071C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E40F26166E87820040071C /* UIKit.framework in Frameworks */,
+				C3E40F28166E87820040071C /* Foundation.framework in Frameworks */,
+				C3E40F2A166E87820040071C /* CoreGraphics.framework in Frameworks */,
+				C33A1E2B166E89A100D5B062 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C37E04D9166E87EC00B5BE8E /* BDKSharePop */ = {
+			isa = PBXGroup;
+			children = (
+				C33A1E34166E8D9500D5B062 /* BDKDrawing.h */,
+				C33A1E35166E8D9500D5B062 /* BDKDrawing.m */,
+				C37E04DD166E880200B5BE8E /* BDKSharePop.h */,
+				C37E04DE166E880200B5BE8E /* BDKSharePop.m */,
+			);
+			path = BDKSharePop;
+			sourceTree = "<group>";
+		};
+		C3E40F16166E87820040071C = {
+			isa = PBXGroup;
+			children = (
+				C37E04D9166E87EC00B5BE8E /* BDKSharePop */,
+				C3E40F2B166E87820040071C /* BDKSharePopSample */,
+				C3E40F24166E87820040071C /* Frameworks */,
+				C3E40F22166E87820040071C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3E40F22166E87820040071C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3E40F21166E87820040071C /* BDKSharePopSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3E40F24166E87820040071C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33A1E2A166E89A100D5B062 /* QuartzCore.framework */,
+				C3E40F25166E87820040071C /* UIKit.framework */,
+				C3E40F27166E87820040071C /* Foundation.framework */,
+				C3E40F29166E87820040071C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3E40F2B166E87820040071C /* BDKSharePopSample */ = {
+			isa = PBXGroup;
+			children = (
+				C33A1E31166E8B8500D5B062 /* UIBarButtonItem+Convenience.h */,
+				C33A1E32166E8B8500D5B062 /* UIBarButtonItem+Convenience.m */,
+				C3E40F34166E87820040071C /* BDKAppDelegate.h */,
+				C3E40F35166E87820040071C /* BDKAppDelegate.m */,
+				C37E04E0166E881E00B5BE8E /* BDKViewController.h */,
+				C37E04E1166E881E00B5BE8E /* BDKViewController.m */,
+				C3E40F2C166E87820040071C /* Supporting Files */,
+			);
+			path = BDKSharePopSample;
+			sourceTree = "<group>";
+		};
+		C3E40F2C166E87820040071C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33A1E2D166E8A2900D5B062 /* GrayJean.png */,
+				C33A1E2E166E8A2900D5B062 /* GrayJean@2x.jpg */,
+				C3E40F2D166E87820040071C /* BDKSharePopSample-Info.plist */,
+				C3E40F2E166E87820040071C /* InfoPlist.strings */,
+				C3E40F31166E87820040071C /* main.m */,
+				C3E40F33166E87820040071C /* BDKSharePopSample-Prefix.pch */,
+				C3E40F37166E87820040071C /* Default.png */,
+				C3E40F39166E87820040071C /* Default@2x.png */,
+				C3E40F3B166E87820040071C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3E40F20166E87820040071C /* SharePop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E40F3F166E87820040071C /* Build configuration list for PBXNativeTarget "SharePop" */;
+			buildPhases = (
+				C3E40F1D166E87820040071C /* Sources */,
+				C3E40F1E166E87820040071C /* Frameworks */,
+				C3E40F1F166E87820040071C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharePop;
+			productName = BDKSharePopSample;
+			productReference = C3E40F21166E87820040071C /* BDKSharePopSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3E40F18166E87820040071C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BDK;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Benjamin Kreeger";
+			};
+			buildConfigurationList = C3E40F1B166E87820040071C /* Build configuration list for PBXProject "BDKSharePopSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3E40F16166E87820040071C;
+			productRefGroup = C3E40F22166E87820040071C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3E40F20166E87820040071C /* SharePop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3E40F1F166E87820040071C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E40F30166E87820040071C /* InfoPlist.strings in Resources */,
+				C3E40F38166E87820040071C /* Default.png in Resources */,
+				C3E40F3A166E87820040071C /* Default@2x.png in Resources */,
+				C3E40F3C166E87820040071C /* Default-568h@2x.png in Resources */,
+				C33A1E2F166E8A2900D5B062 /* GrayJean.png in Resources */,
+				C33A1E30166E8A2900D5B062 /* GrayJean@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3E40F1D166E87820040071C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E40F32166E87820040071C /* main.m in Sources */,
+				C3E40F36166E87820040071C /* BDKAppDelegate.m in Sources */,
+				C37E04DF166E880200B5BE8E /* BDKSharePop.m in Sources */,
+				C37E04E2166E881E00B5BE8E /* BDKViewController.m in Sources */,
+				C33A1E33166E8B8500D5B062 /* UIBarButtonItem+Convenience.m in Sources */,
+				C33A1E36166E8D9500D5B062 /* BDKDrawing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3E40F2E166E87820040071C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E40F2F166E87820040071C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3E40F3D166E87820040071C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3E40F3E166E87820040071C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E40F40166E87820040071C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMPRESS_PNG_FILES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDKSharePopSample/BDKSharePopSample-Prefix.pch";
+				INFOPLIST_FILE = "BDKSharePopSample/BDKSharePopSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3E40F41166E87820040071C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMPRESS_PNG_FILES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDKSharePopSample/BDKSharePopSample-Prefix.pch";
+				INFOPLIST_FILE = "BDKSharePopSample/BDKSharePopSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3E40F1B166E87820040071C /* Build configuration list for PBXProject "BDKSharePopSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E40F3D166E87820040071C /* Debug */,
+				C3E40F3E166E87820040071C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E40F3F166E87820040071C /* Build configuration list for PBXNativeTarget "SharePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E40F40166E87820040071C /* Debug */,
+				C3E40F41166E87820040071C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3E40F18166E87820040071C /* Project object */;
+}
