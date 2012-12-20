@@ -9,7 +9,7 @@
 
 #import "UIBarButtonItem+Convenience.h"
 
-@interface BDKViewController ()
+@interface BDKViewController () <BDKSharePopControllerDelegate>
 
 @property (strong, nonatomic) UITextView *textView;
 @property (strong, nonatomic) UIBarButtonItem *shareItem;
@@ -64,7 +64,7 @@
 
 - (BDKSharePopController *)sharePopController {
     if (_sharePopController != nil) return _sharePopController;
-    _sharePopController = [[BDKSharePopController alloc] init];
+    _sharePopController = [[BDKSharePopController alloc] initWithDelegate:self];
     return _sharePopController;
 }
 
@@ -72,6 +72,12 @@
 
 - (void)shareItemTapped:(UIBarButtonItem *)sender {
     [self presentViewController:self.sharePopController animated:YES completion:nil];
+}
+
+#pragma mark - BDKSharePopControllerDelegate
+
+- (void)sharePopControllerWantsDismissal:(BDKSharePopController *)controller {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
