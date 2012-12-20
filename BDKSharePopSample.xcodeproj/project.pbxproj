@@ -12,7 +12,9 @@
 		C33A1E30166E8A2900D5B062 /* GrayJean@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33A1E2E166E8A2900D5B062 /* GrayJean@2x.jpg */; };
 		C33A1E33166E8B8500D5B062 /* UIBarButtonItem+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = C33A1E32166E8B8500D5B062 /* UIBarButtonItem+Convenience.m */; };
 		C33A1E36166E8D9500D5B062 /* BDKDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = C33A1E35166E8D9500D5B062 /* BDKDrawing.m */; };
-		C37E04DF166E880200B5BE8E /* BDKSharePop.m in Sources */ = {isa = PBXBuildFile; fileRef = C37E04DE166E880200B5BE8E /* BDKSharePop.m */; };
+		C35C94451683AA6300BF9D5B /* BDKSharePopController.m in Sources */ = {isa = PBXBuildFile; fileRef = C35C94441683AA6300BF9D5B /* BDKSharePopController.m */; };
+		C35C944A1683AD6100BF9D5B /* BDKSharePopBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C35C94491683AD6100BF9D5B /* BDKSharePopBackgroundView.m */; };
+		C37E04DF166E880200B5BE8E /* BDKSharePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C37E04DE166E880200B5BE8E /* BDKSharePopView.m */; };
 		C37E04E2166E881E00B5BE8E /* BDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37E04E1166E881E00B5BE8E /* BDKViewController.m */; };
 		C3E40F26166E87820040071C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E40F25166E87820040071C /* UIKit.framework */; };
 		C3E40F28166E87820040071C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E40F27166E87820040071C /* Foundation.framework */; };
@@ -33,11 +35,16 @@
 		C33A1E32166E8B8500D5B062 /* UIBarButtonItem+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Convenience.m"; sourceTree = "<group>"; };
 		C33A1E34166E8D9500D5B062 /* BDKDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKDrawing.h; sourceTree = "<group>"; };
 		C33A1E35166E8D9500D5B062 /* BDKDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKDrawing.m; sourceTree = "<group>"; };
-		C37E04DD166E880200B5BE8E /* BDKSharePop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKSharePop.h; sourceTree = "<group>"; };
-		C37E04DE166E880200B5BE8E /* BDKSharePop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKSharePop.m; sourceTree = "<group>"; };
+		C35C94431683AA6300BF9D5B /* BDKSharePopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKSharePopController.h; sourceTree = "<group>"; };
+		C35C94441683AA6300BF9D5B /* BDKSharePopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKSharePopController.m; sourceTree = "<group>"; };
+		C35C94471683AB1700BF9D5B /* BDKSharePop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKSharePop.h; sourceTree = "<group>"; };
+		C35C94481683AD6100BF9D5B /* BDKSharePopBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKSharePopBackgroundView.h; sourceTree = "<group>"; };
+		C35C94491683AD6100BF9D5B /* BDKSharePopBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKSharePopBackgroundView.m; sourceTree = "<group>"; };
+		C37E04DD166E880200B5BE8E /* BDKSharePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKSharePopView.h; sourceTree = "<group>"; };
+		C37E04DE166E880200B5BE8E /* BDKSharePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKSharePopView.m; sourceTree = "<group>"; };
 		C37E04E0166E881E00B5BE8E /* BDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKViewController.h; sourceTree = "<group>"; };
 		C37E04E1166E881E00B5BE8E /* BDKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKViewController.m; sourceTree = "<group>"; };
-		C3E40F21166E87820040071C /* BDKSharePopSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDKSharePopSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E40F21166E87820040071C /* SharePop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharePop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E40F25166E87820040071C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C3E40F27166E87820040071C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C3E40F29166E87820040071C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,8 +79,13 @@
 			children = (
 				C33A1E34166E8D9500D5B062 /* BDKDrawing.h */,
 				C33A1E35166E8D9500D5B062 /* BDKDrawing.m */,
-				C37E04DD166E880200B5BE8E /* BDKSharePop.h */,
-				C37E04DE166E880200B5BE8E /* BDKSharePop.m */,
+				C35C94471683AB1700BF9D5B /* BDKSharePop.h */,
+				C35C94481683AD6100BF9D5B /* BDKSharePopBackgroundView.h */,
+				C35C94491683AD6100BF9D5B /* BDKSharePopBackgroundView.m */,
+				C35C94431683AA6300BF9D5B /* BDKSharePopController.h */,
+				C35C94441683AA6300BF9D5B /* BDKSharePopController.m */,
+				C37E04DD166E880200B5BE8E /* BDKSharePopView.h */,
+				C37E04DE166E880200B5BE8E /* BDKSharePopView.m */,
 			);
 			path = BDKSharePop;
 			sourceTree = "<group>";
@@ -91,7 +103,7 @@
 		C3E40F22166E87820040071C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3E40F21166E87820040071C /* BDKSharePopSample.app */,
+				C3E40F21166E87820040071C /* SharePop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,7 +166,7 @@
 			);
 			name = SharePop;
 			productName = BDKSharePopSample;
-			productReference = C3E40F21166E87820040071C /* BDKSharePopSample.app */;
+			productReference = C3E40F21166E87820040071C /* SharePop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -207,10 +219,12 @@
 			files = (
 				C3E40F32166E87820040071C /* main.m in Sources */,
 				C3E40F36166E87820040071C /* BDKAppDelegate.m in Sources */,
-				C37E04DF166E880200B5BE8E /* BDKSharePop.m in Sources */,
+				C37E04DF166E880200B5BE8E /* BDKSharePopView.m in Sources */,
 				C37E04E2166E881E00B5BE8E /* BDKViewController.m in Sources */,
 				C33A1E33166E8B8500D5B062 /* UIBarButtonItem+Convenience.m in Sources */,
 				C33A1E36166E8D9500D5B062 /* BDKDrawing.m in Sources */,
+				C35C94451683AA6300BF9D5B /* BDKSharePopController.m in Sources */,
+				C35C944A1683AD6100BF9D5B /* BDKSharePopBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

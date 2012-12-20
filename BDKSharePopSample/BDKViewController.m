@@ -13,7 +13,7 @@
 
 @property (strong, nonatomic) UITextView *textView;
 @property (strong, nonatomic) UIBarButtonItem *shareItem;
-@property (strong, nonatomic) BDKSharePop *sharePop;
+@property (strong, nonatomic) BDKSharePopController *sharePopController;
 
 - (void)shareItemTapped:(UIBarButtonItem *)sender;
 
@@ -62,18 +62,16 @@
     return _shareItem;
 }
 
-- (BDKSharePop *)sharePop {
-    if (_sharePop != nil) return _sharePop;
-    CGRect frame = CGRectMake(10.0f, self.view.frame.size.height - 200.0f - 44.0f - 10.0f, 300.0f, 200.0f);
-    _sharePop = [[BDKSharePop alloc] initWithFrame:frame];
-    return _sharePop;
+- (BDKSharePopController *)sharePopController {
+    if (_sharePopController != nil) return _sharePopController;
+    _sharePopController = [[BDKSharePopController alloc] init];
+    return _sharePopController;
 }
 
 #pragma mark - Actions
 
 - (void)shareItemTapped:(UIBarButtonItem *)sender {
-    if (self.sharePop.superview) [self.sharePop removeFromSuperview];
-    else [self.view addSubview:self.sharePop];
+    [self presentViewController:self.sharePopController animated:YES completion:nil];
 }
 
 @end

@@ -3,12 +3,12 @@
 //  Created by Benjamin Kreeger on 12/4/12.
 //
 
-#import "BDKSharePop.h"
+#import "BDKSharePopView.h"
 #import "BDKDrawing.h"
 
 #import <QuartzCore/QuartzCore.h>
 
-@implementation BDKSharePop 
+@implementation BDKSharePopView 
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {

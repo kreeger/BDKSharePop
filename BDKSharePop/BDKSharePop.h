@@ -1,10 +1,8 @@
 //
 //  BDKSharePop.h
-//  Created by Benjamin Kreeger on 12/4/12.
+//  Created by Benjamin Kreeger on 12/20/12.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface BDKSharePop : UIView
-
-@end
+#import "BDKDrawing.h"
+#import "BDKSharePopView.h"
+#import "BDKSharePopController.h"
